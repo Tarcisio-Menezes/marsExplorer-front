@@ -30,7 +30,7 @@ function Login() {
       'Access-Control-Allow-Origin': '*',
     };
 
-    axios.post(`http://${host}/login`, body, { headers })
+    axios.post(`${host}/login`, body, { headers })
       .then((response) => {
         if (response.data.token) {
           return setToken(response.data.token);

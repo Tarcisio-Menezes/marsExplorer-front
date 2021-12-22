@@ -21,7 +21,7 @@ function Favorites() {
         'Access-Control-Allow-Origin': '*',
         authorization: token,
       };
-      axios.get(`http://${host}/favorite`, { headers })
+      axios.get(`${host}/favorite`, { headers })
         .then((response) => {
           if (response.data) return setFavorites(response.data);
         })
