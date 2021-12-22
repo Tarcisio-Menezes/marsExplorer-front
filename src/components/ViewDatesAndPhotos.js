@@ -7,7 +7,7 @@ import '../css/viewDatesAndPhotos.css';
 
 require('dotenv').config();
 
-const host = process.env.HOST || 'localhost';
+const host = process.env.HOST || 'https://mars-api-01.herokuapp.com';
 
 function ViewDatesAndPhotos() {
   const { setDay, setPage, dataRover, token } = useContext(MainContext);
