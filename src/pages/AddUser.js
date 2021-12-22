@@ -28,7 +28,7 @@ function AddUser() {
       'Access-Control-Allow-Origin': '*',
     };
 
-    axios.post(`http://${host}:3003/user`, body, { headers })
+    axios.post(`http://${host}/user`, body, { headers })
       .then((response) => {
         if (response.data.token) {
           setToken(response.data.token);
