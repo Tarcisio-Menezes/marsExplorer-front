@@ -37,7 +37,7 @@ function Favorites() {
       'Access-Control-Allow-Origin': '*',
       authorization: token,
     };
-    axios.delete(`http://${host}/favorite/${id}`, { headers })
+    axios.delete(`${host}/favorite/${id}`, { headers })
       .then((response) => response)
       .catch((errorOrResponse) => alert(`Você pode remover apenas os seus favoritos!
         ${errorOrResponse}`));
