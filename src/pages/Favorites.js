@@ -37,7 +37,7 @@ function Favorites() {
       'Access-Control-Allow-Origin': '*',
       authorization: token,
     };
-    axios.delete(`http://${host}:3003/favorite/${id}`, { headers })
+    axios.delete(`http://${host}/favorite/${id}`, { headers })
       .then((response) => response)
       .catch((errorOrResponse) => alert(`Você pode remover apenas os seus favoritos!
         ${errorOrResponse}`));
@@ -112,7 +112,7 @@ function Favorites() {
 
   return (
     <div>
-      { token ? listOfFavorites() : <h3>Konduter não autenticado</h3> }
+      { token ? listOfFavorites() : <h3>Explorador não autenticado</h3> }
     </div>
   );
 }
