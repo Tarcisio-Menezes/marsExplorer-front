@@ -8,7 +8,7 @@ import '../css/addUser.css';
 
 require('dotenv').config();
 
-const host = process.env.HOST || 'localhost';
+const host = process.env.HOST || 'https://mars-api-01.herokuapp.com';
 
 function AddUser() {
   const [userName, setUserName] = useState('');
