@@ -1,0 +1,16 @@
+header.navigator {
+  align-items: baseline;
+  border-bottom: black;
+  display: flex;
+  justify-content: space-around;
+  margin: 1%;
+  text-align: center;
+}
+
+header.navigator a {
+  text-decoration: none;
+}
+
+header.navigator h1 {
+  color: rgb(106,57,218);
+}

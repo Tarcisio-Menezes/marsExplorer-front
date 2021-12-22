@@ -1,0 +1,28 @@
+section.titlesLogin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+section.titlesLogin h1, h4 {
+  align-self: center;
+  color: rgb(106,57,218);
+}
+
+section.dataLogin  {
+  margin: auto;
+  padding-top: 2%;
+  width: 20%;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+}
+
+div.register p, a {
+  align-self: center;
+  color: rgb(106,57,218);
+  font-family: inherit;
+}

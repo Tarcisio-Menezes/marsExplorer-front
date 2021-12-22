@@ -1,0 +1,13 @@
+section.selectRover {
+  padding: 2%;
+}
+
+section.selectRover h2 {
+  color: rgb(94, 42, 214);
+  text-align: center;
+}
+
+section.selectRover div {
+  margin-left: 38%;
+  color: rgb(106,57,218);
+}

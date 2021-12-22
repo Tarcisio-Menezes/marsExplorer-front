@@ -1,0 +1,13 @@
+section.preInfos {
+  background-color: rgba(200, 185, 228, 0.836);
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  font-family: monospace;
+  opacity: 80%;
+  margin-left: 35%;
+  width: 30%;
+  text-align: center;
+}
+
+section.preInfos:hover {
+  opacity: 100%;
+}

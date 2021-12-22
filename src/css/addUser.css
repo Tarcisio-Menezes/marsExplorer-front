@@ -1,0 +1,21 @@
+section.createTitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+section.createTitle h1, h4 {
+  align-self: center;
+  color: rgb(106,57,218);
+}
+
+section.createData {
+  margin: auto;
+  padding-top: 2%;
+  width: 20%;
+}
+
+section.createData a {
+  padding-left: 5%;
+}

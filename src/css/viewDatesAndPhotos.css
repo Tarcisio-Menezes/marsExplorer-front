@@ -1,0 +1,41 @@
+div.searchHome {
+  text-align: justify;
+  width: 60%;
+  margin: auto;
+  padding: 0.5%;
+}
+
+div.searchHome h3 {
+  color: rgb(106,57,218);
+  text-align: center;
+}
+
+div.searchHome .formData {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+div.searchHome .formData input {
+  width: 22%;
+}
+
+section.homePhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+section.homePhotos .homeCard {
+  color: rgb(106,57,218);
+  box-shadow: 3px 3px 3px 2px rgba(105, 57, 218, 0.576);
+  margin: 2.5%;
+}
+
+section.homePhotos .homeCard:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
