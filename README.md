@@ -1,4 +1,4 @@
-# MarsExplorer - front end page
+# MarsExplorer - frontend page
 
 Este repositório é destinado ao deploy da aplicação frontend com o Heroku.
 Para consultar o histórico de commits de desenvolvimento de Mars Explorer consulte:
