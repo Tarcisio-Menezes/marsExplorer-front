@@ -143,7 +143,7 @@ function ViewDatesAndPhotos() {
         </section>
       </div>
     );
-  } return rover ? <p>Carregando...</p> : null;
+  } return <p>Aguardando resposta...</p>;
 }
 
 export default ViewDatesAndPhotos;
