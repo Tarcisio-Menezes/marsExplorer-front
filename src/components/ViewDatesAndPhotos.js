@@ -32,7 +32,7 @@ function ViewDatesAndPhotos() {
       launch,
     };
 
-    axios.post(`http://${host}:3003/favorite`, body, { headers })
+    axios.post(`${host}/favorite`, body, { headers })
       .then((response) => {
         if (response.data) {
           return alert(`Foto de ${rover} adicionada aos favoritos`);
